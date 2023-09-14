@@ -6,7 +6,7 @@ public class test5 {
 		String[] routes = {"E 2","S 2","W 1"};
 		List<List<Character>> mapList = new ArrayList<>();
         List<List<Character>> routeList = new ArrayList<>();
-		int result=0;
+		//int result=0;
 		
 		for(String map : park) {//줄마다 넣기
 			List<Character> row = new ArrayList<>();
@@ -127,6 +127,7 @@ public class test5 {
 		}	
 		
 		}      
-        int[] answer = {SrowIndex,ScolumnIndex};	
+        int[] answer = {SrowIndex,ScolumnIndex};
+		System.out.println(Arrays.toString(answer));	
 	}
 }

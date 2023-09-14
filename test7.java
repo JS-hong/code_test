@@ -13,7 +13,6 @@ public class test7 {
 		for(String park : records) {
 			//총 분할해야 할 데이터 
 			//1.시간 2.분 3.차번호 4.in out 유무
-			String 
 		}
 		//일단 2가지 case 존재 기본시간이 남아 있을 경우 
 		//기존 시간을 다 소모하고 추가시간을 적용 시켜야 하는 경우

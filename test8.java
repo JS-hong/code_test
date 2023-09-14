@@ -9,6 +9,7 @@ public class test8 {
         int otictacto = 0;
         int xtictacto = 0;
         int answer = 10;
+        
         //otictactoc 이 1일경우 홀수여야됨
         //xtictactoc 이 1일경우 짝수여야됨
         //근데 둘다 1일경우...? 에러 발생
@@ -91,6 +92,7 @@ public class test8 {
         }
         else{
             answer = 1;
-        }        
+        }   
+        System.out.println(answer);     
     }
 }

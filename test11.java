@@ -35,6 +35,5 @@ public class test11 {
 
 		int[] answer = result.stream().mapToInt(i -> i).toArray();
 		System.out.println(Arrays.toString(answer));
-        return answer;
     } 
 }
