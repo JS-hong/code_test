@@ -1,9 +1,8 @@
+//주차 요금 계산! not
 import java.util.ArrayList;
 import java.util.List;
-
 public class test7 {
 	public static void main(String[] args) {
-		//주차 요금 계산!
 		int[] fees = {180, 5000, 10, 600};
 		String[] records = {"05:34 5961 IN", "06:00 0000 IN", "06:34 0000 OUT", 
 				"07:59 5961 OUT", "07:59 0148 IN", "18:59 0000 IN", 
@@ -21,6 +20,6 @@ public class test7 {
 		
 		//일단 기본시간 case 작성
 		//기본시간 IN OUT
-		
+		//추후에 계산할때 MAP 사용해서 key value 형태로 삽입 및 수정
 	}    
 }

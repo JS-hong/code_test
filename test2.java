@@ -1,4 +1,4 @@
-
+//안전지대 clear
 import java.util.*;
 
 public class test2 {

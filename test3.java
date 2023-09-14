@@ -1,4 +1,4 @@
-
+//카드 뭉치 clear
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,14 +9,13 @@ public class test3 {
 		String[] cards1 = {"i", "water", "drink"};
 		String[] cards2 = {"want", "to"};
 		String[] goal = {"i", "want", "to", "drink", "water"};
-		List<String> str = new ArrayList<String>();//�ֱ�
+		List<String> str = new ArrayList<String>();
 		String answer = null;
 		int cards1CNT = 0;
 		int cards2CNT = 0;
-		//ī�带 ����Ҷ����� ���� ī��δ� �Ѿ�� ���� (�߿�)
-		//���� ���࿡ �Ѵ� ������� return �� 2�� �ǹ���
-		for(int i=0;str.size()<goal.length;i++) {//str�� �� ä������ ��
-				if(cards1CNT < cards1.length &&goal[i].equals(cards1[cards1CNT])) {//cards1�̶� cards2 ī��Ʈ�� ������ �ؾ��ҵ�?
+
+		for(int i=0;str.size()<goal.length;i++) {
+				if(cards1CNT < cards1.length &&goal[i].equals(cards1[cards1CNT])) {
 					str.add(cards1[cards1CNT]);
 					cards1CNT++;
 				}

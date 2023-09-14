@@ -1,12 +1,12 @@
-public class test9 {
-//동적 프로그래밍 top-down bottom-up
+public class test9 { 
+//동적 프로그래밍 top-down bottom-up clear
 	public static void main(String[] args) {
 		int[][] str = {{1}, {2,3}, {4,5,6}, {7,8,9,10}};
 		int answer = 0;
 
 //		for(int i = str.length - 2; i >= 0; i--) {
-//			for(int j = 0; j < str[i].length; j++) {//�� Ʈ���� �ﰢ���� ������ �ڽĳ�� 2���� 
-//				str[i][j] += Math.max(str[i+1][j],str[i+1][j+1]);//���� ��� ������ ��� ��� Ŭ���
+//			for(int j = 0; j < str[i].length; j++) {
+//				str[i][j] += Math.max(str[i+1][j],str[i+1][j+1]);
 //			}
 //		}
 

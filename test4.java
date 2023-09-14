@@ -1,3 +1,4 @@
+//개인정보 신고목록 not
 import java.util.*;
 public class test4 {
 	public static void main(String[] args) {
@@ -32,5 +33,7 @@ public class test4 {
 		    map.get(reportedUser).add(reporter);
 		}
 		System.out.println(map);	
+
+		//신고 처리 작업하기
 	}
 }

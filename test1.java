@@ -1,5 +1,5 @@
+//삼각형의 완성조건 clear
 public class test1 {
-
 	public static void main(String[] args) {
 		int[] side = {11, 7};
         int answer = 0;
