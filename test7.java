@@ -30,19 +30,20 @@ public class test7 {
 		}//clear
 
 		//요금 게산용 Map
+		//생각해야할것 1.만약에 IN만 있을경우? 23:59분까지의 요금을 계산해서 처리해야함
 		Map<String,Integer> parkMap = new HashMap<>();//차번호 요금 저장
 
 
 		for(int j=0;j<str.size();j++){//데이터 수 만큼 반복
-			if (parkMap.get(str.get(j).get(2)) != null) {
-				if(str.get(j).get(3) == "OUT"){
+			String carNumber = str.get(j).get(2);
+			String status = str.get(j).get(3);
+			if (status.equals("IN")) {//만약에 status가 IN일때
+				if (parkMap.get(str.get(j).get(2)) != null) {
 
 				}
-				else{
-					
-				}
-			} else {
-				parkMap.put(str.get(j).get(2),fees[1]);
+			}
+			else if (status.equals("OUT")) {//만약에 status가 OUT일때{
+
 			}
 		}
 		System.out.println(parkMap);
