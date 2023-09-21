@@ -1,13 +1,11 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
-
+import java.util.*;
 public class test13 {
     public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>();
         int[] progresses = {93, 30, 55};
         int[] speeds = {1, 30, 5};
         int count = 0;
-        int[] answer = {};
+        int ans = 1;
         
         //큐 방식 먼저 들어온게 완성시에 먼저 나가도록
         Queue<Integer> queue_prg = new LinkedList<>();
@@ -28,13 +26,20 @@ public class test13 {
             for (int i=prg;i<100;i+=spe) {//작업 일수 구하는곳
                 count++;
             }
-            System.out.println(count);
+            date = count;//요일 저장
+            list.add(count);
             count = 0;
             //이제 조건을 걸어야 하는데
-            if(date>count){//만약에 후작업이 기존 작업보다 클 경우
 
+            for(int i=0;i<list.size();i++){
+                if(list.get(i)>list.get(+1)){
+                    ans++;
+                }
+                else{
+
+                }
             }
-        }
 
+        }
     }  
 }
