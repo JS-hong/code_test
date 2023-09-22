@@ -33,10 +33,10 @@ public class test13 {
 
             for(int i=0;i<list.size();i++){
                 if(list.get(i)>list.get(+1)){
-                    ans++;
+                    //숫자 증가시키고 다음 list 가져오기
                 }
                 else{
-
+                    //총 카운트를 리스트에 저장 그리고 카운트를 리셋 
                 }
             }
 
